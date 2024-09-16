@@ -58,6 +58,10 @@
     gap: 1em;
 }
 
+.star {
+    color: #ccc;
+}
+
 .checked {
     color: orange;
 }

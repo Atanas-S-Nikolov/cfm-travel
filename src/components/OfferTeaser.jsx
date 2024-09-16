@@ -8,7 +8,7 @@ function renderRatings(rating) {
 		if (index <= rating) {
 			elements.push(<FaStar className={styles.checked} />);
 		} else {
-			elements.push(<FaStar />);
+			elements.push(<FaStar className={styles.star}/>);
 		}
 	}
 	return elements.map((el, index) => <Fragment key={index}>{el}</Fragment>);
