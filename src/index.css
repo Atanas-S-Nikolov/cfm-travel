@@ -33,3 +33,9 @@ button:active, button:focus {
 img {
   max-width: 100%;
 }
+
+@media (max-width: 425px) {
+  button {
+    font-size: smaller;
+  }
+}

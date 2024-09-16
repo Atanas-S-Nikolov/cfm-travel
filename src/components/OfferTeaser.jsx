@@ -32,12 +32,14 @@ export default function OfferTeaser({ offer }) {
 					))}
 				</ul>
 				<section className={styles.pricing}>
-					<div className={styles.rating}>
-						Rating: &nbsp; {renderRatings(rating)}
+					<div className={styles.pricing_wrapper}>
+						<div className={styles.rating}>
+							Rating: &nbsp; {renderRatings(rating)}
+						</div>
+						<span>
+							From price: <b>{fromPrice} &euro;</b>
+						</span>
 					</div>
-					<span>
-						From price: <b>{fromPrice} &euro;</b>
-					</span>
 					<button>book now</button>
 				</section>
 			</section>
