@@ -1,0 +1,11 @@
+.app {
+    display: grid;
+    place-items: center;
+    padding: 2em 4em;
+}
+
+.offers_list {
+    display: inherit;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}

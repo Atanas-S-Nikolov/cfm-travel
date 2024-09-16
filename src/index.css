@@ -1,0 +1,35 @@
+html, body, :root {
+  --primary-color: #399918;
+
+  margin: 0;
+  padding: 0;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div, section, hr {
+  margin: 0;
+}
+
+button {
+  background-color: #399918;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color linear .25s;
+}
+
+button:hover {
+  background-color: #2f7e14;
+}
+
+button:active, button:focus {
+  border: none;
+}
+
+img {
+  max-width: 100%;
+}
